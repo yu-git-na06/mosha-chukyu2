@@ -1,1 +1,73 @@
 @charset "UTF-8";
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+/* common */
+.common-wrapper {
+    max-width: 1024px;
+}
+
+/* ×印 */
+.batsu{}
+
+/* =============================== */
+/* header */
+.header{
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 30px;
+}
+
+.header-logo span{
+    color:#77BAAA;
+}
+
+.header-nav{
+    display: flex;
+}
+
+.header-nav li {
+    margin: 0 25px;
+}
+
+.header-nav-mb{
+    display: none;
+}
+
+/* first-view */
+.first-view{}
+
+.first-view-wrapper{
+    position: relative;
+    background-color:rgba(0,0,0,0.8);
+}
+
+.first-view-img {
+    display: block;
+    height: 100%;
+}
+
+.first-view-img source{
+    
+}
+
+.first-view-wrapper h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    font-size: 35px;
+    text-align: center;
+}
