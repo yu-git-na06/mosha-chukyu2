@@ -7,6 +7,19 @@ body {
 /* common */
 .common-wrapper {
     max-width: 1024px;
+    padding: 0 15%;
+}
+
+.common-wrapper h2 {
+    font-size: 26px;
+    margin-bottom: 45px;
+    border-bottom: solid 1px black;
+    padding-bottom: 10px;
+}
+
+.common-wrapper span {
+    font-size: 20px;
+    color:#77BAAA;
 }
 
 /* ×印 */
@@ -14,9 +27,6 @@ body {
 
 /* =============================== */
 /* header */
-.header{
-}
-
 .header-wrapper{
     display: flex;
     justify-content: space-between;
@@ -46,20 +56,13 @@ body {
 }
 
 /* first-view */
-.first-view{}
-
 .first-view-wrapper{
     position: relative;
-    background-color:rgba(0,0,0,0.8);
 }
 
 .first-view-img {
     display: block;
     height: 100%;
-}
-
-.first-view-img source{
-    
 }
 
 .first-view-wrapper h1 {
@@ -70,4 +73,31 @@ body {
     color:white;
     font-size: 35px;
     text-align: center;
+}
+
+/* philosophy */
+.philosophy{
+    padding: 50px 0;
+    background-color:#EFEFEF;
+}
+
+.philosophy-wrapper{}
+
+.philosophy-inner{
+    display: flex;
+    align-items: center;
+}
+
+.philosophy-img{
+    width: 50%;
+    margin-right: 50px;
+}
+
+.philosophy-img img {
+    width: 100%;
+}
+
+.philosophy-text-block{
+    width: 50%;
+    margin-left: 50px;
 }
