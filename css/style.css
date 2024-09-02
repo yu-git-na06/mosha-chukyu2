@@ -60,9 +60,22 @@ body {
     position: relative;
 }
 
+.first-view-wrapper span{
+    width: 100vw;
+    height: calc(100vh - 100px);
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .first-view-img {
     display: block;
     height: 100%;
+}
+
+.first-view-img img {
+    width: 100%
 }
 
 .first-view-wrapper h1 {
